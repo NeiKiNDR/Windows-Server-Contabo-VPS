@@ -64,7 +64,7 @@ cd /root/windisk
 
 mkdir winfile
 
-wget -O win10.iso https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_es-es.iso
+wget -O win10.iso https://download.microsoft.com/download/7/6/9/769D6905-3BC7-4CF0-B3BD-785EC88767AF/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_ES-ES.ISO
 
 mount -o loop win10.iso winfile
 
