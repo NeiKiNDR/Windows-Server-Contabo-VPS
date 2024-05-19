@@ -2,7 +2,7 @@
 
 apt update -y && apt upgrade -y
 
-apt install grub2 wimtools ntfs-3g -y
+apt install grub2 filezilla wimtools ntfs-3g -y
 
 #Get the disk size in GB and convert to MB
 disk_size_gb=$(parted /dev/sda --script print | awk '/^Disk \/dev\/sda:/ {print int($3)}')
