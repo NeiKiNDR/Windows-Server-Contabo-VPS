@@ -1,8 +1,8 @@
 #!/bin/bash
 
-apt update -y && apt upgrade -y
+apt update -y
 
-apt install grub2 filezilla wimtools -y
+apt install grub2 filezilla gparted wimtools -y
 
 #Get the disk size in GB and convert to MB
 disk_size_gb=$(parted /dev/sda --script print | awk '/^Disk \/dev\/sda:/ {print int($3)}')
